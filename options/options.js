@@ -1,10 +1,11 @@
 export const globalOptions = {
-  name: "minifiedapp-dev-109658",
-  url: "https://minifiedapp-dev-109658.botics.co",
-  api: "https://minifiedapp-dev-109658.botics.co/api/v1",
-  screenOptions: {
-    headerShown: false
-  }
+  "name": "minifiedapp-dev-109658",
+  "url": "https://minifiedapp-dev-109658.botics.co",
+  "api": "https://minifiedapp-dev-109658.botics.co/api/v1",
+  "screenOptions": {
+    "headerShown": false
+  },
+  "initialRoute": "Untitled2"
 };
 export const modulesOptions = {
   "@modules/app-menu": {
