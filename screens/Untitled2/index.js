@@ -1,4 +1,3 @@
-import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -14,7 +13,7 @@ const Untitled2 = ({
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable><View style={styles.nCxcFifK}></View></Pressable></ScrollView>
+    }}><View style={styles.nCxcFifK}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -29,8 +28,9 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777",
     borderWidth: 0,
-    left: 90,
-    top: 60
+    left: 94,
+    top: 298,
+    position: "absolute"
   }
 });
 export default Untitled2;
